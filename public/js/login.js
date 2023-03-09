@@ -8,8 +8,8 @@ const login =  async (email, password)=>{
 
          res= await axios({
                 method:'POST',
-                url:'http://127.0.0.1:3008/api/v1/users/login',  
-                //using app.use((cors)) to solve x,lreq err
+                url:'/api/v1/users/login',  
+               
                 data:{
                     // email:email
                     email,
@@ -38,14 +38,13 @@ const login =  async (email, password)=>{
      
         }
        
-//*********logout******************
-//random jwt token is generate..which is obviously not match with our valid jwt token so that varification was failed and logout status was success and  ' location.reload(true) ' ie  reloads the page from the server instead of from the cache,
+
 const logout =  async()=>{
     let res;
      try{
          res = await axios({
              method:'GET',
-             url:'http://127.0.0.1:3008/api/v1/users/logout'
+             url:'/api/v1/users/logout'
          })
 
      }

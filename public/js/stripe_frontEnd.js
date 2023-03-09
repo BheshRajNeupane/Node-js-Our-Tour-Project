@@ -1,16 +1,14 @@
 //RUN in HTTPS 
 
 const stripe = Stripe('pk_test_51MY4vmD0Blb0JTsqg5YSwTFOhsPpliei9SafrZWRlCUDKCYmkAuZvA4FQrIM0OrU8dtBPIiSTRjL109jtjIIffF700WeEWHIew');
-//console.log(stripe);
-// for forentend :public key & link stripe /html
-// for backend :secrete key &  install stripe /npm 
+
 
 
  const bookTour =  async tourId => {
      try{
  //1.Get checkout session from API
    const session = await axios(
-     `http://127.0.0.1:3008/api/v1/bookings/checkout-session/${tourId}`
+     `/api/v1/bookings/checkout-session/${tourId}`
      )
      //console.log(session);
     
