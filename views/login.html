@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Axios cdn -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+
+    <title>| Login Form |</title>
+
+    <style>
+      .main{
+        display: flex;
+        margin-top: 40px;
+        
+      }
+      .login-form{
+        padding: 20px;
+        background: rgb(0, 128, 87);
+        right: 30px;
+      }
+      #btn{
+        background-color: blue;
+        padding: 10px;
+        color:aliceblue;
+      }
+      #email{
+        margin: 10px;
+      }
+      #password{
+        margin: 10px;
+        right: 10px;
+      }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="login-form">
+          <h2 class="heading-secondary ma-bt-lg">Tour | Login Form</h2>
+          <form class="form">
+
+            <div class="form__group">
+
+              <label class="form__label" for="email">Email address</label>
+
+              <input class="form__input" id="email" type="email" placeholder="you@example.com" required="required"/>
+            </div>
+
+            <div class="form__group ma-bt-md">
+              <label class="form__label" 
+             for="password"> Password : </label>
+
+              <input class="form__input" id="password" type="password" placeholder="************" required="required" minlength="8"/>
+            </div>
+            <div class="form__group">
+              <button class="btn btn--green" id="btn">Login</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <script src="../public/js/login.js">
+        
+      </script>
+</body>
+</html>

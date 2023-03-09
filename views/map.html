@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet'/>
+
+ 
+
+<title>Map</title>
+<style>
+    .marker{
+        background-image: url('../public/img/pin.png');
+        background-size: cover;
+        width: 32px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+</style>
+
+</head>
+<body>
+     <h2>The Forest Hiker;<br>
+    coordinates[-106.855385, 39.182677]</h2>
+    
+    <!-- <div id='map' data-locations="location details" style='width: 400px; height: 300px;'></div> -->
+    <!-- data-location= `${JSON.stringify{tour.locations}}` -->
+    <div id='map' data-locations="43466" style='width: 400px; height: 300px;'></div>
+     
+</body>
+<script src="./../public/js/mapbox.js"></script>
+</html>
