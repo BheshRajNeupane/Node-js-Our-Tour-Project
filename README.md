@@ -1,17 +1,22 @@
 # Node-js-Our-Tour-Project
  
  [click here to see complete REST API of this project](https://documenter.getpostman.com/view/24028174/2s8ZDVYi98?fbclid=IwAR28hwaVG4SCIuGAyzny1AoXmnd82QfT1ekKpPxr-L206Pi3S8GFtufG8D8#b01bc3f3-6b79-43bc-a308-6932f35efefa)
+<br>
 
 **Environment **
+<br>
+
  1.Development 
  2. Production
 ![postman Enviroment](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/945f00c1-da5a-42d8-bb47-a03c59d90510)
 
 **Tech Stack**
  Node js (express) , PUG , MongoDB (essential to advance concept)
-
+<br>
+<br>
  ***FEATURES***
- 
+ <br>
+
   1.**Authentication and Authorization**
   
    Signup , Login as an Admin , Tour Guide  and user  , JSON web token(jwt) is used to make authentication 
@@ -25,17 +30,31 @@
   
 ![forget pswd](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/942412a0-6632-4c2c-944a-3a9671690a9f)
 
+<br>
+<br>
+<br>
+
 2.**Creat , get , read and update Tour**
 Admin and tour Guid[who had a valid guide] can only Create and Update Tour details like the location of place , name , price duration and so on. Users can read tours and also can book Tour.
 
 ![bookedTour](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/1d58b41a-7a99-4701-a75f-696ba0a3766e)
 
+<br>
+<br>
+<br>
+
 3.**User can Create, Read and Update Review(Comment) on particular Tours and Admin can see all Review on Tours**
+<br>
+<br>
 
 4.**Nodemail and SendGrid are used for Email handling in Develpment and Production Environment**
 ![welcome email](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/c225636f-8d32-461e-bdc3-7ec90ca878a5)
-
+<br>
+<br>
+<br>
 5.**Admin can Tour Monthly -Statistics of Tour**
+<br>
+<br>
 
 6.**User can get nearby Tour locations and distance from he/she**
 ![map](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/a2f8a4b9-d23b-4243-ba66-1f14217df24f)
@@ -47,8 +66,10 @@ Admin and tour Guid[who had a valid guide] can only Create and Update Tour detai
 ![welcome email](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/0ce2ce46-6cd0-4a4d-947a-e4d6cf181357)
 ![db-index](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/0695e051-f6ee-448d-aea6-3c3aaf58bf30)
 ![bookedTour](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/94a23299-b317-40cf-8e71-edc656db6d01)
-
+<br>
+<br>
+<br>
 
 **I HAVE COMPLETED 42 HROUS NODE JE, EXPRESS AND MONGO DB COURSE**
-
+<br>
 ![Udemy](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/e590d577-23a5-49fc-b8fb-071cbf215025)
