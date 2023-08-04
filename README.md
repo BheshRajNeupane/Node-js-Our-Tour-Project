@@ -47,3 +47,7 @@ Admin and tour Guid[who had a valid guide] can only Create and Update Tour detai
 ![welcome email](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/0ce2ce46-6cd0-4a4d-947a-e4d6cf181357)
 ![db-index](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/0695e051-f6ee-448d-aea6-3c3aaf58bf30)
 ![bookedTour](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/94a23299-b317-40cf-8e71-edc656db6d01)
+
+
+**I HAVE COMPLETED 48 HROUS NODE JE, EXPRESS AND MONGO DB COURSE**
+[Udemy_certification.pdf](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/files/12262454/Udemy_certification.pdf)
