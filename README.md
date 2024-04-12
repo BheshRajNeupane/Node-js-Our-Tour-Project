@@ -9,8 +9,6 @@
 - Development
 - Production
 
-![Postman Environment](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/945f00c1-da5a-42d8-bb47-a03c59d90510)
-
 **Tech Stack**
 
 - Node.js (Express)
