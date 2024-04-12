@@ -1,6 +1,4 @@
-It's impressive to see your journey through a Node.js, Express, and MongoDB course, culminating in a comprehensive project like this! Here's a refined version of your project description:
 
----
 
 # Node.js Our Tour Project
 
@@ -27,7 +25,7 @@ It's impressive to see your journey through a Node.js, Express, and MongoDB cour
    - Users can forget and reset their passwords.
 
    ![Authentication Screenshots](https://github.com/BheshRajNeupane/Node-js-Our-Tour-Project/assets/108607897/auth-screenshots.png)
-
+   ![Login form](https://github.com/BheshRajNeupane/Node-js-Our-Tour- Project/assets/108607897/bc3bd6d9-0d4a-4e53-8c05-919e8a813a40)
 2. **Tour Management**
    - Admins and authorized tour guides can create and update tour details, such as location, name, price, and duration.
    - Users can view and book tours.
